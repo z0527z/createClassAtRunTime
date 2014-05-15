@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TestViewController : UIViewController
+{
+    int _age;
+}
 
-@property(nonatomic, copy) NSString * gender;
+
 @end

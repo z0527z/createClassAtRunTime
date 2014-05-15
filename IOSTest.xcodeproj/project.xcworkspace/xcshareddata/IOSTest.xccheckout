@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>198CFD63-64CA-461F-B5E5-298AA902DD6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IOSTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
+		<string>https://github.com/z0527z/createClassAtRunTime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOSTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/z0527z/createClassAtRunTime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

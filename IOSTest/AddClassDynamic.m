@@ -1,23 +1,16 @@
 //
-//  TestViewController.m
+//  AddClassDynamic.m
 //  IOSTest
 //
-//  Created by dingql on 14-5-9.
+//  Created by dingql on 14-5-13.
 //  Copyright (c) 2014年 dingql. All rights reserved.
 //
 
-#import "TestViewController.h"
-#import "MessageDispatch.h"
+#import "AddClassDynamic.h"
 #import <objc/objc.h>
 #import <objc/runtime.h>
-#import <math.h>
 
-
-@interface TestViewController ()
-
-@end
-
-@implementation TestViewController
+@implementation AddClassDynamic
 
 void ReportFunction(id self, SEL _cmd)
 {
@@ -70,14 +63,7 @@ static const char * const genderKey;
     return @"undefined";
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    // Message
-//    Son * son = [[Son alloc]init];
-//    [(Father *)son play: 1];
-    
+- (void)addClassDynamic{
     // 运行时创建类，添加变量，方法
     objc_property_attribute_t type = { "T", "@\"NSString\"" };
     objc_property_attribute_t ownership = { "C", "copy" }; // C = copy
@@ -90,7 +76,7 @@ static const char * const genderKey;
     class_addMethod(newClass, @selector(report), (IMP)ReportFunction, "v@:");
     class_addMethod(newClass, @selector(GetMyName), (IMP)nameGetter, "nameGetter");
     class_addMethod(newClass, @selector(setMyName:), (IMP)nameSetter, "nameSetter");
-
+    
     objc_registerClassPair(newClass);
     
     id inst = [[newClass alloc] init];
@@ -101,16 +87,9 @@ static const char * const genderKey;
     
 //    NSString * str = [inst valueForKey:@"gender"];
 //    NSLog(@"str:%@", str);
-    
+//
 //    [inst setGender:@"F"];
 //    NSLog(@"gender:%@", (NSString *)[inst gender]);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-
-}
-
 @end
-
