@@ -13,5 +13,12 @@
     int _age;
 }
 
+- (void)testMessageDispatcher;
+- (void)testDynamicAddClass;
+- (void)testKVO;
+- (void)testKVC;
+- (void)testKVOImplementation;
+- (void)testMethodSwizzling;
+
 
 @end
