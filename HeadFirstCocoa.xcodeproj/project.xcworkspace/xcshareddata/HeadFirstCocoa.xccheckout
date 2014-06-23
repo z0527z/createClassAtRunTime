@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>198CFD63-64CA-461F-B5E5-298AA902DD6C</string>
+	<string>1404986B-5DCB-4731-B6CF-AE56238E54BC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>IOSTest</string>
+	<string>HeadFirstCocoa</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
 		<string>https://github.com/z0527z/createClassAtRunTime.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IOSTest.xcodeproj/project.xcworkspace</string>
+	<string>HeadFirstCocoa.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</string>
 			<key>IDESourceControlWCCName</key>
-			<string>IOSTest</string>
+			<string>HeadFirstCocoa</string>
 		</dict>
 	</array>
 </dict>

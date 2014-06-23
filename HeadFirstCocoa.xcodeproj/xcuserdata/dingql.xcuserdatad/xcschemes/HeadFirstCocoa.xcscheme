@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225F901D191B4A6600C6E7A9"
-               BuildableName = "IOSTest.app"
-               BlueprintName = "IOSTest"
-               ReferencedContainer = "container:IOSTest.xcodeproj">
+               BuildableName = "HeadFirstCocoa.app"
+               BlueprintName = "HeadFirstCocoa"
+               ReferencedContainer = "container:HeadFirstCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225F9038191B4A6600C6E7A9"
-               BuildableName = "IOSTestTests.xctest"
-               BlueprintName = "IOSTestTests"
-               ReferencedContainer = "container:IOSTest.xcodeproj">
+               BuildableName = "HeadFirstCocoaTests.xctest"
+               BlueprintName = "HeadFirstCocoaTests"
+               ReferencedContainer = "container:HeadFirstCocoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "225F901D191B4A6600C6E7A9"
-            BuildableName = "IOSTest.app"
-            BlueprintName = "IOSTest"
-            ReferencedContainer = "container:IOSTest.xcodeproj">
+            BuildableName = "HeadFirstCocoa.app"
+            BlueprintName = "HeadFirstCocoa"
+            ReferencedContainer = "container:HeadFirstCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "225F901D191B4A6600C6E7A9"
-            BuildableName = "IOSTest.app"
-            BlueprintName = "IOSTest"
-            ReferencedContainer = "container:IOSTest.xcodeproj">
+            BuildableName = "HeadFirstCocoa.app"
+            BlueprintName = "HeadFirstCocoa"
+            ReferencedContainer = "container:HeadFirstCocoa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "225F901D191B4A6600C6E7A9"
-            BuildableName = "IOSTest.app"
-            BlueprintName = "IOSTest"
-            ReferencedContainer = "container:IOSTest.xcodeproj">
+            BuildableName = "HeadFirstCocoa.app"
+            BlueprintName = "HeadFirstCocoa"
+            ReferencedContainer = "container:HeadFirstCocoa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
