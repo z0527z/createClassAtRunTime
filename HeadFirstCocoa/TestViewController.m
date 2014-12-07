@@ -12,6 +12,7 @@
 #import "KVOTheory.h"
 #import "KVOImplementation.h"
 #import "NSObject+MethodSwizzlingCategory.h"
+#import "MultiThread.h"
 #import <objc/runtime.h>
 
 
@@ -29,11 +30,11 @@
     
     //[self testMessageDispatcher];
     //[self testDynamicAddClass];
-    //[self testKVC];
+    [self testKVC];
     //[self testKVO];
     //[self testKVOImplementation];
-    [self testMethodSwizzling];
-    
+    //[self testMethodSwizzling];
+//    [self testMultiThread];
 
     
 
@@ -60,6 +61,16 @@
     
     [target setValue:@"dql" forKey:@"_name"];
     NSLog(@"name:%@", [target valueForKey:@"name"]);
+    
+    NSArray * array = @[@(1), @(2), @(3), @(1)];
+    int avg = [[array valueForKeyPath:@"@avg.self"] intValue];
+    int count = [[array valueForKeyPath:@"@count"] intValue];
+    NSLog(@"avg:%d, count:%d", avg, count);
+    
+    id name = [array valueForKeyPath:@"@unionOfObjects.self"];
+    id distinctName = [array valueForKeyPath:@"@distinctUnionOfObjects.self"];
+    NSLog(@"typeof(name):%@, name:%@", [name class], name);
+    NSLog(@"distinctName:%@", distinctName);
 }
 
 #pragma - KVO
@@ -142,6 +153,16 @@
     NSLog(@"--------------- 分割线 --------------");
     [NSObject swizzleMethod:@selector(recursionMethod) withMethod:@selector(testMethod)];
     [obj recursionMethod];
+}
+
+#pragma - Multi Thread
+- (void)testMultiThread
+{
+    MultiThread * thread = [[MultiThread alloc]init];
+    [thread createNSThread];
+    [thread createNSThreadLazy];
+    [thread createNSThreadUsingNSObjectMethod];
+    [thread communicationBetweenThreads];
 }
 
 

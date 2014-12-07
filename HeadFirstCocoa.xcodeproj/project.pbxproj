@@ -23,6 +23,7 @@
 		2270E677192EEBCF00DAF325 /* KVOImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270E676192EEBCF00DAF325 /* KVOImplementation.m */; };
 		22DE4AD5191C711200380B89 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE4AD4191C711200380B89 /* TestViewController.m */; };
 		22DE4AD9191CAC1700380B89 /* MessageDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE4AD8191CAC1700380B89 /* MessageDispatch.m */; };
+		22F5BA291957CC8800188AAB /* MultiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5BA281957CC8800188AAB /* MultiThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		22DE4AD4191C711200380B89 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		22DE4AD7191CAC1700380B89 /* MessageDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatch.h; sourceTree = "<group>"; };
 		22DE4AD8191CAC1700380B89 /* MessageDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDispatch.m; sourceTree = "<group>"; };
+		22F5BA271957CC8800188AAB /* MultiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
+		22F5BA281957CC8800188AAB /* MultiThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				2270E676192EEBCF00DAF325 /* KVOImplementation.m */,
 				2260165519333A8300196AD0 /* NSObject+MethodSwizzlingCategory.h */,
 				2260165619333A8300196AD0 /* NSObject+MethodSwizzlingCategory.m */,
+				22F5BA271957CC8800188AAB /* MultiThread.h */,
+				22F5BA281957CC8800188AAB /* MultiThread.m */,
 				225F9033191B4A6600C6E7A9 /* Images.xcassets */,
 				225F9028191B4A6600C6E7A9 /* Supporting Files */,
 			);
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F5BA291957CC8800188AAB /* MultiThread.m in Sources */,
 				2260165719333A8300196AD0 /* NSObject+MethodSwizzlingCategory.m in Sources */,
 				22DE4AD5191C711200380B89 /* TestViewController.m in Sources */,
 				2270E677192EEBCF00DAF325 /* KVOImplementation.m in Sources */,

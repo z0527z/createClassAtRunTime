@@ -10,29 +10,29 @@
 	<string>HeadFirstCocoa</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
+		<key>7366069F1D085CB2D9B43381561FCD52B18F7B70</key>
 		<string>https://github.com/z0527z/createClassAtRunTime.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HeadFirstCocoa.xcodeproj/project.xcworkspace</string>
+	<string>HeadFirstCocoa.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</key>
+		<key>7366069F1D085CB2D9B43381561FCD52B18F7B70</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/z0527z/createClassAtRunTime.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</string>
+	<string>7366069F1D085CB2D9B43381561FCD52B18F7B70</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EC6A95D2-45C9-4E96-9AE3-3BF27761A895</string>
+			<string>7366069F1D085CB2D9B43381561FCD52B18F7B70</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HeadFirstCocoa</string>
 		</dict>

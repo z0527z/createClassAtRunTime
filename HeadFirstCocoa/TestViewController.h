@@ -19,6 +19,6 @@
 - (void)testKVC;
 - (void)testKVOImplementation;
 - (void)testMethodSwizzling;
-
+- (void)testMultiThread;
 
 @end
